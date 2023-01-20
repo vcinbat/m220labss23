@@ -15,13 +15,16 @@ function draw() {
   strokeWeight(5);          //Setting the thickness of the ellipse
   stroke(0, 0, 139);        //Setting the color of the stroke weight
   ellipse(x, y, 50, 50);    //Setting the ellipse's dimensions
-  x += 10;                  //Incrementing the value of x by 10
-  y += 10;                  //Incrementing the value of y by 10
+               
   if (x > width) {          //If statement that checks whether the x value is greater than the canvas width
-    x = 0;                  //If it is, the ellipse starts back at 0 x-coordinate
+    x = 0;                  //If so, the ellipse starts back at 0 x-coordinate
+  }else{
+    x += 10;                //Else continue the draw function by incrementing the x value by 10
   }
   if (y > height) {         //If statement that checks whether the y value is greater than the canvas height
-    y = 0;                  //If it is, the ellipse starts back at 0 y-coordinate
+    y = 0;                  //If so, the ellipse starts back at 0 y-coordinate
+  }else{
+    y += 10;                //Else continue the draw function by incrementing the y value by 10
   }
 }
 
