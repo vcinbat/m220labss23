@@ -27,4 +27,3 @@ function draw() {
     y += 10;                //Else continue the draw function by incrementing the y value by 10
   }
 }
-
