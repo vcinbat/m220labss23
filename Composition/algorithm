@@ -1,0 +1,15 @@
+<!-- Start -->
+<!-- Declare variable x -->
+<!-- Declare variable y -->
+<!-- Setting up the canvas dimensions and the background color -->
+<!-- Setting the color inside the ellipse to be light blue -->
+<!-- Setting the thickness of the ellipse -->
+<!-- Setting the color of the stroke weight-->
+<!-- Setting the ellipse's dimensions -->
+<!-- If statement that checks whether the x value is greater than the canvas width -->
+<!-- If so, the ellipse starts back at 0 x-coordinate -->
+<!-- Else continue the draw function by incrementing the x value by 10 -->
+<!-- If statement that checks whether the y value is greater than the canvas height -->
+<!-- If so, the ellipse starts back at 0 y-coordinate -->
+<!-- Else continue the draw function by incrementing the y value by 10 -->
+<!-- Stop -->
